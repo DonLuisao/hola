@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/form-style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Mi Página Web - Formulario de Contacto</title>
+  </head>
+  <body>
+    <header>
+      <h1>Mi Página Web</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="./PUBLIC/Paginasobremi.html">Sobre Mi</a></li>
+        <li><a href="./PUBLIC/PaginaContacto.html">Contacto</a></li>
+        <li><a href="./PUBLIC/PaginaRed.html">Red</a></li>
+        <li><a href="./PUBLIC/PaginaFII.html">PaginaFII</a></li>
+      </ul>
+    </nav>
+
+    <section id="contenido">
+      <form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required />
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <input type="submit" value="Enviar" />
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Mi Página Web</p>
+    </footer>
+  </body>
+</html>
